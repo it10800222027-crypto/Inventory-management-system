@@ -1,0 +1,60 @@
+<!-- res/layout/transfer_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/textFromUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textToUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To: " />
+
+    <TextView
+        android:id="@+id/textAssetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asset: " />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnApprove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Approve"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#fff"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnReject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:backgroundTint="#F44336"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>

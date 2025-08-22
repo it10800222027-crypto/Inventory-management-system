@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EBFBFA"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/form_card_background"
+        android:padding="24dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_asset_to_transfer"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0E3D43"
+            android:layout_marginBottom="12dp" />
+
+        <Spinner
+            android:id="@+id/assetSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/toUserEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_email_of_user_to_transfer_to"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/requestTransferBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/request_transfer"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:paddingVertical="12dp"
+            android:backgroundTint="#0E3D43"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

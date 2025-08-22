@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120454436258",
+    "project_id": "inv-mgmt-system-app",
+    "storage_bucket": "inv-mgmt-system-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120454436258:android:c6bfa12debf008851a8efb",
+        "android_client_info": {
+          "package_name": "com.pewush.authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvJMduJN2ac39uYGK6xw-lkSXORLP2hkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120454436258:android:170a7b1fcb76f39b1a8efb",
+        "android_client_info": {
+          "package_name": "com.pewush.inventorymanagementsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvJMduJN2ac39uYGK6xw-lkSXORLP2hkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
